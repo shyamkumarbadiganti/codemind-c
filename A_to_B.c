@@ -1,10 +1,10 @@
-#include <stdio.h>
-int main()
+#include<stdio.h>
+int main() 
 {
-    int a,b,i;
-    scanf("%d%d", &a,&b);
-    for(i=a; i<=b; i++)
-    {
-        printf("%d ", i);
-    }
+ int i,m,n;
+ scanf ("%d %d", &m, &n);
+ for (i = m; i <= n; i++)
+ {
+   printf("%d ",i);
+ }
 }
